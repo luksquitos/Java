@@ -22,5 +22,7 @@ public class Ex11_CotacaoDolar {
         String pessoa = sc.nextLine();
         System.out.println("Okay "+ pessoa +". How many dollar will be bought ?");
         CurrencyConverter.converter(sc.nextDouble());
+
+        sc.close();
     }
 }
